@@ -32,7 +32,6 @@ function colorizeStart () {
         isActive = false;
         refs.startBtn.addEventListener('click', colorizeStart);
         refs.startBtn.removeEventListener('click', colorizeStop);
-
     };
 };
 
