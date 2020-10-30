@@ -31,7 +31,7 @@ function colorizeStart () {
         clearInterval(changeColor);
         isActive = false;
         refs.startBtn.addEventListener('click', colorizeStart);
-        refs.startBtn.removeEventListener('click', colorizeStop);
+        refs.stopBtn.removeEventListener('click', colorizeStop);
     };
 };
 

@@ -1,0 +1,12 @@
+.err{
+    text-align: center;
+    color: red;
+}
+.resp{
+    text-align: center;
+    color: green;  
+}
+.loadBar{
+    text-align: center;
+    color: blue;    
+}
